@@ -31,7 +31,7 @@
 }
 
 .header > h1 {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .header > h6 {
@@ -44,7 +44,8 @@
     margin-bottom: 40px;
     margin-top: 20px;
     justify-content:space-between;
-    background-color: skyblue;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .container > div {
     flex: 1;
@@ -66,15 +67,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .name{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .detail{
     border-right: 1px solid gray;
+    line-height: 200%;
 }
 
