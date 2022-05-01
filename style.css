@@ -13,8 +13,8 @@
     height: 200px;
     overflow: hidden;
     position: relative;
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+    /* opacity: 0.4;
+    filter: alpha(opacity=40);  */
 }
 .intro_bg > img {
     position: absolute;
@@ -31,7 +31,7 @@
 }
 
 .header > h1 {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .header > h6 {
@@ -41,10 +41,15 @@
 
 .container{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    justify-content:space-between;
+    background-color: skyblue;
+}
+.container > div {
+    flex: 1;
+    text-align: center;
 
-    justify-content:space-evenly;
-    background-color: blue;
 }
 
 .image {
@@ -56,9 +61,20 @@
 
 .image > img {
     position: absolute;
-    width: 100%;
+    width: 50%;
     /* height: 50%; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.name{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.detail{
+    border-right: 1px solid gray;
+}
+
