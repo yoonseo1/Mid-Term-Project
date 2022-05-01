@@ -9,108 +9,56 @@
 }
 
 .intro_bg{
-    background-image:url(image/flower.jpg);
     width: 100%;
-    height: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
+}
+.intro_bg > img {
+    position: absolute;
+    width: 100%;
+    /* height: 50%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header{
     display: flex;
-    width: 1280px;
-    margin:auto;
-    background-color: green;
-    height: 86px;
+    justify-content:space-between;
 }
 
-.searchArea{
-    width:300px;
-    height: 40px;
-    background-color: rgba(0,0,0,0);
-    border-radius: 5px;
-    margin-top: 24px;
-}
-
-
-.nav{
-    display: flex;
-    justify-content: flex-end;
-    line-height: 86px;
-    width:calc(1280px- 300px);
-    background: rgba(0,0,0,0)
-    
-}
-
-.nav > li{
-    margin-left: 84px;
-}
-
-.nav > li > a {
-    color: #fff;
-}
-
-.content {
-    width: 90%;
-    height: 500px;
-    background-color: blue;
-    margin-top: 20px;
-    justify-content: space-between;
-}
-
-
-
-.container {
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    margin-left: 50px;
-    background-color: red;
-    float: left;
-}
-
-.container2 {
-    width: 200px;
-    height: 300px;
-    margin-left: 30px;
-    background-color: black;
-}
-
-
-.text{
-    display: flex;
-    background-color: aqua;
-    width:300px;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.text > li{
+.header > h1 {
     margin-left: 20px;
+}
+
+.header > h6 {
+    margin-top:20px;
+    margin-right: 20px ;
+}
+
+.container{
     display: flex;
-    
+    margin-bottom: 20px;
+
+    justify-content:space-evenly;
+    background-color: blue;
 }
 
-
-
-
-.custom-shape-divider-bottom-1651383581 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.image {
+    width: 300px;
+    height: 400px;
     overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1651383581 svg {
     position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
 }
 
-.custom-shape-divider-bottom-1651383581 .shape-fill {
-    fill: #FBC1C1;
+.image > img {
+    position: absolute;
+    width: 100%;
+    /* height: 50%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-
